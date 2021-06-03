@@ -1,0 +1,11 @@
+{
+  "name": "daily-journel-101",
+  "version": "1.0.0",
+  "description": "\"This is website for creating daily journels\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivam Chamoli",
+  "license": "ISC"
+}
