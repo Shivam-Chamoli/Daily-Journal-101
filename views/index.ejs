@@ -1,0 +1,30 @@
+<!-- Home route ejs file -->
+
+<!-- Including Header ejs file -->
+
+<%- include('header'); -%>
+
+    <div class="header">
+        <header>
+            <h1 class="header-heading">DAILY JOURNEL</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </header>
+    </div>
+    <section class="content">
+        <div class="home">
+            <h1>Home | An Insight</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, magnam vel? Adipisci enim eos explicabo deleniti et asperiores rem accusamus similique, tempora dolores vel ex maiores a voluptatem eaque non!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed modi vel. Iure placeat omnis odio praesentium unde amet minus ullam, exercitationem deserunt ipsa reiciendis a eligendi numquam non aut!</p>
+        </div>
+        <% for(var i=0; i< journels.length; i++){ %>
+            <div class="journels-post">
+                <h2> <%= journels[i].heading %> </h2>
+                <p> <%= journels[i].text %> </p>
+            </div>
+        <% } %>
+    </section>
+<!-- Including footer ejs -->
+<%- include('footer'); -%>
