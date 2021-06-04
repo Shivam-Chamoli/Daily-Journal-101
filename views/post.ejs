@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+<link rel="stylesheet" href="/CSS/posts.css">
+<%- include("partials/navbar"); -%>
+
+<section class="content">
+    <div class="post-heading">
+        <h1> <%= postReq.heading %> </h1>
+    </div>
+    <div class="post-text">
+        <p> <%= postReq.text %></p>
+    </div>
+</section>
+
+<%- include("partials/footer"); -%>

@@ -9,7 +9,7 @@ html{
 body{
     min-height: 100vh;
 }
-a{
+ul a{
     text-decoration: none;
     color: inherit;
 }
@@ -36,7 +36,8 @@ header ul{
     flex: 1 0 auto;
     justify-self: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 .content{

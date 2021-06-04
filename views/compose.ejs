@@ -1,0 +1,19 @@
+<%- include('partials/header'); -%>
+    <link rel="stylesheet" href="CSS/compose.css">
+<%- include('partials/navbar'); -%>
+
+<Section class="content">
+    <form action="/" method="post" class="form-class">
+    <div class="form-grp form-grp-title">
+        <label for="title">Title</label>
+        <input type="text" placeholder="Enter the title here" name="journelTitle">
+    </div>
+    <div class="form-grp form-grp-text">
+        <label for="text">Journel</label>
+        <textarea  placeholder="Enter the Journel text here" name="journelText"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+    </form>
+</Section>
+
+<%- include('partials/footer'); -%>

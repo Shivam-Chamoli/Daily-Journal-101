@@ -1,0 +1,12 @@
+.post-heading{
+    font-size: 2em;
+    padding: .5em;
+    margin-bottom: 1rem;
+}
+.post-text{
+    font-size: 1em;
+    padding: .5em;
+    text-align: justify;
+    width: fit-content;
+
+}
